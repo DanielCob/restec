@@ -1,7 +1,6 @@
 "use client"
-import "primeflex/primeflex.css";
+
 import { StyleClass } from 'primereact/styleclass';
-import "primereact/resources/themes/lara-light-cyan/theme.css";
 import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
 import { InputText } from "primereact/inputtext";
 import { Button } from "primereact/button";
