@@ -33,3 +33,6 @@ C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\obj\Debug\n
 C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\obj\Debug\net8.0\ref\Server.dll
 C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\bin\Debug\net8.0\Data\Bills.json
 C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\bin\Debug\net8.0\Data\Orders.json
+C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\bin\Debug\net8.0\Data\Admins.json
+C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\bin\Debug\net8.0\Data\Chefs.json
+C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\bin\Debug\net8.0\Data\Clients.json
