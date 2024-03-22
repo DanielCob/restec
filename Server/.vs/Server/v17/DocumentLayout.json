@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\restec\\server\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|solutionrelative:controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\restec\\server\\data\\pedidosdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|solutionrelative:data\\pedidosdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\restec\\server\\data\\pedidos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|solutionrelative:data\\pedidos.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\restec\\server\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|solutionrelative:models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Models\\Pedido.cs",
+              "RelativeToolTip": "Models\\Pedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T20:04:39.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PedidosData.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\PedidosData.cs",
+              "RelativeDocumentMoniker": "Data\\PedidosData.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\PedidosData.cs",
+              "RelativeToolTip": "Data\\PedidosData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T19:26:10.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pedidos.json",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\Pedidos.json",
+              "RelativeDocumentMoniker": "Data\\Pedidos.json",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\Pedidos.json",
+              "RelativeToolTip": "Data\\Pedidos.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-22T19:06:17.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PedidoController.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Controllers\\PedidoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PedidoController.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Controllers\\PedidoController.cs",
+              "RelativeToolTip": "Controllers\\PedidoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T18:44:02.117Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
