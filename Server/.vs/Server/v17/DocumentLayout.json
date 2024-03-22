@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\restec\\server\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\restec\\server\\controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|solutionrelative:controllers\\billcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\restec\\server\\data\\bills.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|solutionrelative:data\\bills.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\restec\\server\\data\\billdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|solutionrelative:data\\billdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\restec\\server\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|solutionrelative:models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\restec\\server\\data\\orderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|solutionrelative:data\\orderdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\restec\\server\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\restec\\server\\data\\orders.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|solutionrelative:data\\orders.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|c:\\users\\gustavo a\\desktop\\tec\\1er_semestre_2024\\bases\\restec\\server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3179F24C-2429-4F3B-9F27-1AFC88B2E8A4}|Server.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T20:04:39.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrderData.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\OrderData.cs",
-              "RelativeDocumentMoniker": "Data\\OrderData.cs",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\OrderData.cs",
-              "RelativeToolTip": "Data\\OrderData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T19:26:10.853Z",
+              "Title": "Bills.json",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\Bills.json",
+              "RelativeDocumentMoniker": "Data\\Bills.json",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\Bills.json",
+              "RelativeToolTip": "Data\\Bills.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-22T23:44:48.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Orders.json",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\Orders.json",
-              "RelativeDocumentMoniker": "Data\\Orders.json",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\Orders.json",
-              "RelativeToolTip": "Data\\Orders.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-22T19:06:17.41Z",
+              "DocumentIndex": 2,
+              "Title": "BillData.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\BillData.cs",
+              "RelativeDocumentMoniker": "Data\\BillData.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\BillData.cs",
+              "RelativeToolTip": "Data\\BillData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T23:24:12.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAYAAAA",
+              "Title": "BillController.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Controllers\\BillController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BillController.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Controllers\\BillController.cs",
+              "RelativeToolTip": "Controllers\\BillController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T18:44:02.117Z",
+              "WhenOpened": "2024-03-22T23:15:44.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-22T20:48:54.631Z"
+              "Title": "OrderData.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\OrderData.cs",
+              "RelativeDocumentMoniker": "Data\\OrderData.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Data\\OrderData.cs",
+              "RelativeToolTip": "Data\\OrderData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T23:12:04.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Models\\Bill.cs",
+              "RelativeDocumentMoniker": "Models\\Bill.cs",
+              "ToolTip": "C:\\Users\\Gustavo A\\Desktop\\TEC\\1er_semestre_2024\\Bases\\restec\\Server\\Models\\Bill.cs",
+              "RelativeToolTip": "Models\\Bill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T23:02:43.437Z",
+              "EditorCaption": ""
             }
           ]
         }

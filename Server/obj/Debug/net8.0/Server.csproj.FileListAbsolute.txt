@@ -1,6 +1,5 @@
 C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\bin\Debug\net8.0\appsettings.json
-C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\bin\Debug\net8.0\Data\Pedidos.json
 C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\bin\Debug\net8.0\Server.exe
 C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\bin\Debug\net8.0\Server.deps.json
 C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\bin\Debug\net8.0\Server.runtimeconfig.json
@@ -32,3 +31,5 @@ C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\obj\Debug\n
 C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\obj\Debug\net8.0\Server.pdb
 C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\obj\Debug\net8.0\ref\Server.dll
+C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\bin\Debug\net8.0\Data\Bills.json
+C:\Users\Gustavo A\Desktop\TEC\1er_semestre_2024\Bases\restec\Server\bin\Debug\net8.0\Data\Orders.json
