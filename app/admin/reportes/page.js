@@ -60,28 +60,34 @@ export default function Home({ Component, pageProps }) {
             <div>
                 <Menubar model={items} end={end}/>
             </div>
-            <div>
-                <h1>Reportes</h1>
+            <h1>Reportes</h1>
+            <div className='flex flex-row flex-wrap gap-3'>
+                <div className="flex-1 surface-card shadow-2 border-round">
                 <h2>Top platos más vendidos</h2>
-                <div className="card">
-                    <DataTable value={products} tableStyle={{ minWidth: '50rem' }}>
-                        <Column field="Ranking" header="Code"></Column>
-                        <Column field="Nombre" header="Name"></Column>
-                    </DataTable>
+                    <div className="card">
+                        <DataTable value={products} tableStyle={{ minWidth: '50rem' }}>
+                            <Column field="Ranking" header="Ranking"></Column>
+                            <Column field="Nombre" header="Nombre"></Column>
+                        </DataTable>
+                    </div>
                 </div>
+                <div className="flex-1">
                 <h2>Platos que más ganancias generan</h2>
-                <div className="card">
-                    <DataTable value={products} tableStyle={{ minWidth: '50rem' }}>
-                        <Column field="Ranking" header="Code"></Column>
-                        <Column field="Nombre" header="Name"></Column>
-                    </DataTable>
+                    <div className="card">
+                        <DataTable value={products} tableStyle={{ minWidth: '50rem' }}>
+                            <Column field="Ranking" header="Ranking"></Column>
+                            <Column field="Nombre" header="Nombre"></Column>
+                        </DataTable>
+                    </div>
                 </div>
+                <div className="flex-1">
                 <h2>Platos con mejor feedback</h2>
-                <div className="card">
-                    <DataTable value={products} tableStyle={{ minWidth: '50rem' }}>
-                        <Column field="Ranking" header="Code"></Column>
-                        <Column field="Nombre" header="Name"></Column>
-                    </DataTable>
+                    <div className="card">
+                        <DataTable value={products} tableStyle={{ minWidth: '50rem' }}>
+                            <Column field="Ranking" header="Ranking"></Column>
+                            <Column field="Nombre" header="Nombre"></Column>
+                        </DataTable>
+                    </div>
                 </div>
             </div>
         </PrimeReactProvider>
