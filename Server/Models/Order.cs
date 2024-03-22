@@ -1,6 +1,6 @@
 ﻿namespace Server.Models
 {
-    public class Pedido
+    public class Order
     {
         public required int PedidoId { get; set; }
         public bool Active { get; set; }
