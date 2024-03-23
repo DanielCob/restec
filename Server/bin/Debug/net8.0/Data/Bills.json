@@ -1,0 +1,13 @@
+[
+  {
+    "Id": 1000,
+    "ClientName": "Juan",
+    "Date": "20 de noviembre del 2023",
+    "Hour": "10:23 am",
+    "Total": 10000,
+    "Dishes": [
+      "Arroz con pollo",
+      "Casado con carne de Res"
+    ]
+  }
+]

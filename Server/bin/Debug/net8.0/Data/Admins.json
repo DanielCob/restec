@@ -1,0 +1,28 @@
+[
+  {
+    "num_ced": 1,
+    "name": "",
+    "first_name": "",
+    "last_name": "",
+    "province": "",
+    "city": "",
+    "distric": "",
+    "birth_date": "",
+    "phone": "",
+    "e_mail": "",
+    "password": ""
+  },
+  {
+    "num_ced": 702990605,
+    "name": "albert",
+    "first_name": "vega ",
+    "last_name": "camacho",
+    "province": "limon",
+    "city": "siquirres",
+    "distric": "siquirres",
+    "birth_date": "25",
+    "phone": "63293852",
+    "e_mail": "albert@gmail.com",
+    "password": "albert"
+  }
+]

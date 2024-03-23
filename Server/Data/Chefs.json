@@ -1,0 +1,28 @@
+[
+  {
+    "num_ced": 1,
+    "name": "",
+    "first_name": "",
+    "last_name": "",
+    "province": "",
+    "city": "",
+    "distric": "",
+    "birth_date": "",
+    "phone": "",
+    "e_mail": "",
+    "password": ""
+  },
+  {
+    "num_ced": 2,
+    "name": "a",
+    "first_name": "a",
+    "last_name": "a",
+    "province": "a",
+    "city": "a",
+    "distric": "a",
+    "birth_date": "a",
+    "phone": "a",
+    "e_mail": "chef@gmail.com",
+    "password": "chef"
+  }
+]
