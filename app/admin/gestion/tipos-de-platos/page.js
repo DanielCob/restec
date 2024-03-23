@@ -93,10 +93,6 @@ export default function Home({ Component, pageProps }) {
         return <InputText type="text" value={options.value} onChange={(e) => options.editorCallback(e.target.value)} />;
     };
 
-    const allowEdit = (rowData) => {
-        return rowData.name !== 'Blue Band';
-    };
-
 
     return (
         <PrimeReactProvider value={value}>
@@ -109,7 +105,7 @@ export default function Home({ Component, pageProps }) {
                         <Column selectionMode="multiple" headerStyle={{ width: '3rem', textAlign: 'start' }}></Column>
                         <Column field="name" header="Name" editor={(options) => textEditor(options)} style={{ width: '40%' }}></Column>
                         <Column field="description" header="Descripción" editor={(options) => textEditor(options)} style={{ width: '50%' }}></Column>
-                        <Column rowEditor={allowEdit} headerStyle={{ width: '10%', minWidth: '8rem' }} bodyStyle={{ textAlign: 'end' }}></Column>
+                        <Column rowEditor={true} headerStyle={{ width: '10%', minWidth: '8rem' }} bodyStyle={{ textAlign: 'end' }}></Column>
                     </DataTable>
                 </div>
             </div>
