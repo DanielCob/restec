@@ -4,9 +4,9 @@ import { Button } from "primereact/button";
 
 export default function Home({ Component, pageProps }) {
   const [source, setSource] = useState([
-    { id: 1, name: 'Item 1', status: 'tomar pedido' },
-    { id: 2, name: 'Item 2', status: 'tomar pedido' },
-    { id: 3, name: 'Item 3', status: 'tomar pedido' }
+    { id: 1, name: 'Arroz con pollo', status: 'tomar pedido' },
+    { id: 2, name: 'Pollo frito', status: 'tomar pedido' },
+    { id: 3, name: 'Chifrijo', status: 'tomar pedido' }
   ]);
 
   const onClick = (id) => {

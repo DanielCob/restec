@@ -4,9 +4,9 @@ import { Button } from "primereact/button";
 
 export default function Home({ Component, pageProps }) {
   const [source, setSource] = useState([
-    { id: 1, name: 'Item 1', time: '5 min', completed: false },
-    { id: 2, name: 'Item 2', time: '10 min', completed: false },
-    { id: 3, name: 'Item 3', time: '15 min', completed: false }
+    { id: 1, name: 'Arroz con pollo', time: '5 min', completed: false },
+    { id: 2, name: 'Pollo frito', time: '10 min', completed: false },
+    { id: 3, name: 'Chifrijo', time: '15 min', completed: false }
   ]);
 
   const onClick = (id) => {
