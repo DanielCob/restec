@@ -5,6 +5,12 @@ namespace Server.Data
 {
     public class BillData
     {
+        /*
+         * Funcion: CreateBill.
+         * Entradas: ClientName: nombre del cliente, Date: fecha de la compra, Hour: hora de la compra, Total: monto total, Dishes: lista de platos.
+         * Salidas: true en caso de crear correctamente la factura.
+         * Este metodo se encarga de crear una factura de un cliente y almacenarla en un json.
+         */
         public bool CreateBill(string ClientName, string Date, string Hour, float Total, string[] Dishes)
         {
             try 
