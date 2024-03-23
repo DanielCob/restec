@@ -6,14 +6,14 @@ using System.Text.Json;
 namespace Server.Controllers
 {
     [ApiController]
-    [Route("api/Pedidos")]
+    [Route("api/orders")]
     public class OrderController : ControllerBase
     {
         [HttpGet]
         public async Task<ActionResult<List<Order>>> Get()
         {
             var data = new OrderData();
-            List<Order> list = data.getPedidos(@"Data\Pedidos.json");
+            List<Order> list = data.getPedidos(@"Data\Orders.json");
             return list;
         }
 
