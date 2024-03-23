@@ -5,15 +5,14 @@ import "primereact/resources/themes/lara-light-cyan/theme.css";
 import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
 import { InputText } from "primereact/inputtext";
 import { Button } from "primereact/button";
+import { useRouter } from 'next/navigation';
 import React, { useState } from "react";
 
 export default function Home({ Component, pageProps }) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleLogin = () => {
-    // Perform login logic here
-  };
+  const router = useRouter()
 
   const value = {
     ripple: true
@@ -34,7 +33,7 @@ export default function Home({ Component, pageProps }) {
                   <label htmlFor="password" className="block text-900 font-medium mb-2">Password</label>
                   <InputText id="password" type="password" placeholder="Password" className="w-full mb-3" />
 
-                  <Button label="Sign In" icon="pi pi-user" className="w-full" />
+                  <Button label="Sign In" icon="pi pi-user" className="w-full" onClick={() => router.push('/chef/root')} />
               </div>
           </div>
       </div>

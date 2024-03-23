@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from "react";
 import { Button } from "primereact/button";
+import { useRouter } from 'next/navigation';
 
 export default function Home({ Component, pageProps }) {
   const [source, setSource] = useState([
@@ -8,6 +9,8 @@ export default function Home({ Component, pageProps }) {
     { id: 2, name: 'Pollo frito', time: '10 min', completed: false },
     { id: 3, name: 'Chifrijo', time: '15 min', completed: false }
   ]);
+
+  const router = useRouter()
 
   const onClick = (id) => {
     // Marcar un producto como completado o eliminarlo
@@ -49,7 +52,7 @@ export default function Home({ Component, pageProps }) {
         </div>
       ))}
       <div className="return-button">
-        <Button label="Volver" className="p-button-secondary p-button-text" />
+        <Button label="Volver" className="p-button-secondary p-button-text" onClick={() => router.push('/chef/root')}/>
       </div>
       <style jsx>{`
         .container {

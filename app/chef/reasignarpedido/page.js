@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from "react";
 import { Button } from "primereact/button";
+import { useRouter } from 'next/navigation';
 
 export default function Home({ Component, pageProps }) {
   const [source, setSource] = useState([
@@ -8,6 +9,8 @@ export default function Home({ Component, pageProps }) {
     { id: 2, name: 'Pollo frito', status: 'tomar pedido' },
     { id: 3, name: 'Chifrijo', status: 'tomar pedido' }
   ]);
+
+  const router = useRouter()
 
   const onClick = (id) => {
     // Cambiar el estado del pedido o eliminarlo
@@ -49,7 +52,7 @@ export default function Home({ Component, pageProps }) {
           </div>
         </div>
       ))}
-      <Button label="Volver" className="p-button-secondary volver-btn" onClick={volver} />
+      <Button label="Volver" className="p-button-secondary volver-btn" onClick={() => router.push('/chef/root')} />
       <style jsx>{`
         .container {
           margin-top: 20px;

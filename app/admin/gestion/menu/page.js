@@ -6,10 +6,9 @@ import { Menubar } from 'primereact/menubar';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { Button } from "primereact/button";
-import { Tag } from 'primereact/tag';
 import { InputText } from 'primereact/inputtext';
 import { InputNumber } from 'primereact/inputnumber';
-import { Dropdown } from 'primereact/dropdown';
+import { useRouter } from 'next/navigation';
 import React, { useState } from "react";
 
 export default function Home({ Component, pageProps }) {
@@ -18,6 +17,8 @@ export default function Home({ Component, pageProps }) {
     const value = {
         ripple: true
     };
+
+    const router = useRouter()
 
     // Configuracion del menubar
     const items = [
@@ -53,7 +54,7 @@ export default function Home({ Component, pageProps }) {
     
     const end = (
         <div className="flex align-items-center gap-2">
-            <Button label="Cerrar Sesión" severity="danger" icon="pi pi-sign-out" text />
+            <Button label="Cerrar Sesión" severity="danger" icon="pi pi-sign-out" onClick={() => router.push('/admin/login')}/>
         </div>
     );
     

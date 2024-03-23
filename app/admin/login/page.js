@@ -11,10 +11,6 @@ export default function Home({ Component, pageProps }) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleLogin = () => {
-    
-  };
-
   const router = useRouter()
 
   const value = {
@@ -36,7 +32,7 @@ export default function Home({ Component, pageProps }) {
                   <label htmlFor="password" className="block text-900 font-medium mb-2">Password</label>
                   <InputText id="password" type="password" placeholder="Password" className="w-full mb-3" />
 
-                  <Button label="Sign In" icon="pi pi-user" className="w-full" onClick={() => router.push('/api')} />
+                  <Button label="Sign In" icon="pi pi-user" className="w-full" onClick={() => router.push('/admin/inicio')} />
               </div>
           </div>
       </div>
