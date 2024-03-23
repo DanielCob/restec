@@ -8,7 +8,12 @@ namespace Server.Controllers
     [Route("api/login/")]
     public class LoginController : ControllerBase
     {
-        // POST: api/admin
+        /*
+         * Funcion: PostAdmin.
+         * Entradas: e_mail: correo electronico del administrador, password: contraseña del administrador.
+         * Salidas: Ok() en caso de validar correctamente la información ingresada, BadRequest() en caso contrario.
+         * Este metodo se encarga de validar la información de inicio de sesión de los administradores.
+         */
         [HttpPost("admin")]
         public IActionResult PostAdmin(String e_mail, String password)
         {
@@ -75,7 +80,12 @@ namespace Server.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        // POST: api/chef
+        /*
+         * Funcion: PostClient.
+         * Entradas: e_mail: correo electronico del administrador, password: contraseña del Chef.
+         * Salidas: Ok() en caso de validar correctamente la información ingresada, BadRequest() en caso contrario.
+         * Este metodo se encarga de validar la información de inicio de sesión de los Chef.
+         */
         [HttpPost("client")]
         public IActionResult PostClient(String e_mail, String password)
         {

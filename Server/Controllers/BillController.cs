@@ -7,6 +7,12 @@ namespace Server.Controllers
     [Route("api/Bills")]
     public class BillController : ControllerBase
     {
+        /*
+         * Funcion: Bill.
+         * Entradas: ClientName: nombre del cliente, Date: fecha de la compra, Hour: hora de la compra, Total: monto total, Dishes: lista de platos.
+         * Salidas: Ok() en caso de crear correctamente la factura, BadRequest() en caso contrario.
+         * Este metodo se encarga de crear y almacenar una factura.
+         */
         [HttpPost("Generate")]
         public IActionResult Bill(string ClientName, string Date, string Hour, float Total, string[] Dishes) 
         {
