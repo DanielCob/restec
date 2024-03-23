@@ -39,7 +39,7 @@ export default function Home({ Component, pageProps }) {
     <div className="container">
       <div className="header">
         <div className="header-item">Pedidos</div>
-        <div className="header-item">TomarPedido</div>
+        <div className="header-item">Gestionar</div>
       </div>
       {source.map(item => (
         <div className="product-item" key={item.id}>

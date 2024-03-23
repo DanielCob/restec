@@ -4,21 +4,21 @@ import { Button } from "primereact/button";
 
 export default function Home({ Component, pageProps }) {
   const [source, setSource] = useState([
-    { id: 1, name: 'Item 1', status: 'tomar pedido' },
-    { id: 2, name: 'Item 2', status: 'tomar pedido' },
-    { id: 3, name: 'Item 3', status: 'tomar pedido' }
+    { id: 1, name: 'Item 1', time: '5 min', completed: false },
+    { id: 2, name: 'Item 2', time: '10 min', completed: false },
+    { id: 3, name: 'Item 3', time: '15 min', completed: false }
   ]);
 
   const onClick = (id) => {
-    // Cambiar el estado del pedido o eliminarlo
+    // Marcar un producto como completado o eliminarlo
     const updatedSource = source.map(item => {
       if (item.id === id) {
-        if (item.status === 'tomar pedido') {
-          // Si el estado es 'tomar pedido', cambiarlo a 'confirmar'
-          return { ...item, status: 'confirmar' };
-        } else {
-          // Si el estado es 'confirmar', eliminar la fila
+        if (item.completed) {
+          // Si ya está completado, eliminar la fila
           return null;
+        } else {
+          // Si no está completado, cambiar el estado a completado
+          return { ...item, completed: true };
         }
       }
       return item;
@@ -26,30 +26,31 @@ export default function Home({ Component, pageProps }) {
     setSource(updatedSource);
   };
 
-  const buttonLabel = (status) => {
-    return status === 'tomar pedido' ? 'Tomar pedido' : 'Confirmar';
+  const buttonLabel = (completed) => {
+    return completed ? 'Eliminar registro' : 'Listo';
   };
 
-  const volver = () => {
-    // Acción asociada al botón "Volver"
-    console.log('Volver');
+  const buttonClassName = (completed) => {
+    return completed ? 'p-button-danger' : '';
   };
 
   return (
     <div className="container">
       <div className="header">
-        <div className="header-item">Pedidos</div>
-        <div className="header-item">TomarPedido</div>
+        <div className="header-item">Producto</div>
+        <div className="header-item">Tiempo estimado</div>
+        <div className="header-item">Producto completado</div>
       </div>
       {source.map(item => (
         <div className="product-item" key={item.id}>
           <div className="product-name">{item.name}</div>
-          <div className="product-actions">
-            <Button label={buttonLabel(item.status)} className="p-button-primary" onClick={() => onClick(item.id)} />
-          </div>
+          <div className="product-time">{item.time}</div>
+          <Button label={buttonLabel(item.completed)} className={buttonClassName(item.completed)} onClick={() => onClick(item.id)} />
         </div>
       ))}
-      <Button label="Volver" className="p-button-secondary volver-btn" onClick={volver} />
+      <div className="return-button">
+        <Button label="Volver" className="p-button-secondary p-button-text" />
+      </div>
       <style jsx>{`
         .container {
           margin-top: 20px;
@@ -57,7 +58,7 @@ export default function Home({ Component, pageProps }) {
         }
         .header {
           display: grid;
-          grid-template-columns: 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr;
           font-weight: bold;
           text-align: center;
           margin-bottom: 10px;
@@ -67,17 +68,17 @@ export default function Home({ Component, pageProps }) {
         }
         .product-item {
           display: grid;
-          grid-template-columns: 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr;
           border-bottom: 1px solid #ccc;
           align-items: center;
           padding: 10px 0;
           text-align: center;
         }
-        .product-name, .product-actions {
+        .product-name, .product-time {
           padding: 5px;
         }
-        .volver-btn {
-          position: absolute;
+        .return-button {
+          position: fixed;
           bottom: 10px;
           left: 10px;
         }
