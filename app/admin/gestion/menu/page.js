@@ -14,10 +14,12 @@ import React, { useState } from "react";
 
 export default function Home({ Component, pageProps }) {
 
+    // Configuracion de PrimeReact
     const value = {
         ripple: true
     };
 
+    // Configuracion del menubar
     const items = [
         {
             label: 'Inicio',
@@ -105,7 +107,7 @@ export default function Home({ Component, pageProps }) {
         return new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'CRC' }).format(rowData.price);
     };
 
-    
+    // Render
     return (
         <PrimeReactProvider value={value}>
             <div>
@@ -114,6 +116,7 @@ export default function Home({ Component, pageProps }) {
             <div>
                 <div className="card p-fluid">
                     <DataTable value={products} header={header} selectionMode={'checkbox'} selection={selectedProducts} onSelectionChange={(e) => setSelectedProducts(e.value)} editMode="row" onRowEditComplete={onRowEditComplete} tableStyle={{ minWidth: '50rem' }}>
+                        <Column selectionMode="multiple" headerStyle={{ width: '3rem', textAlign: 'start' }}></Column>
                         <Column field="name" header="Nombre" editor={(options) => textEditor(options)} style={{ width: '20%' }}></Column>
                         <Column field="price" header="Precio" body={priceBodyTemplate} editor={(options) => priceEditor(options)} style={{ width: '20%' }}></Column>
                         <Column field="calorie" header="Cantidad de Calorías" body={calorieBodyTemplate} editor={(options) => calorieEditor(options)} style={{ width: '20%' }}></Column>

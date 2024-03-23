@@ -11,10 +11,12 @@ import React, { useState } from "react";
 
 export default function Home({ Component, pageProps }) {
 
+    // Configuracion de PrimeReact
     const value = {
         ripple: true
     };
 
+    // Configuracion del menubar
     const items = [
         {
             label: 'Inicio',
@@ -65,6 +67,7 @@ export default function Home({ Component, pageProps }) {
         {Ranking: 10, Nombre: 'Plato 10'}
     ];
     
+    // Render
     return (
         <PrimeReactProvider value={value}>
             <div>
